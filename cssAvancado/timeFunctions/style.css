@@ -1,0 +1,37 @@
+
+@keyframes move{
+    0%{left: 0px;}
+    100%{left: 300px;}
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    /* Propriedades da animação */
+    animation-name: mover; /* Nome da animação */
+    animation-duration: 3s; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repetir infinitamente */
+    animation-direction: alternate;   /* Faz o movimento ir e voltar */
+    /* Por padrão, animation-timing-function: ease */
+}
+  
+.div1 { animation-timing-function: linear; }
+.div2 { animation-timing-function: ease; }
+.div3 { animation-timing-function: ease-in; }
+.div4 { animation-timing-function: ease-out; }
+.div5 { animation-timing-function: ease-in-out; }
+  
+  
+  /* Define a animação "mover" */
+  @keyframes mover {
+    from {
+      transform: translateX(0); /* Posição inicial */
+    }
+    to {
+      transform: translateX(200px); /* Posição final */
+    }
+  }
+  
+  

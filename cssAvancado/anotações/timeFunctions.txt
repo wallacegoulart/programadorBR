@@ -1,0 +1,28 @@
+Um exemplo prático para ilustrar o animation-timing-function seria imaginar um carrinho se movendo 
+horizontalmente por 3 segundos (definido pela animation-duration: 3s). A animação move o carrinho da 
+esquerda para a direita. O animation-timing-function controla como esse movimento acontece ao longo desses 
+3 segundos. A propriedade animation-name: move; define o que a animação faz (no caso, mover da esquerda 
+para a direita).
+
+Aqui está o que cada valor de animation-timing-function representaria nesse contexto:
+
+linear: O carrinho se move a uma velocidade constante do início ao fim. 
+Imagine um carrinho em um trilho reto, com velocidade constante.
+
+
+ease: O carrinho começa devagar, acelera no meio e desacelera suavemente no final. 
+Imagine um carro comum partindo e parando suavemente.
+
+ease-in: O carrinho começa bem devagar e acelera gradualmente até o final. 
+Imagine um avião decolando.
+
+ease-out: O carrinho começa rápido e desacelera gradualmente até parar. 
+Imagine um carro freando suavemente.
+
+ease-in-out: O carrinho começa devagar, acelera no meio, e depois desacelera suavemente no final, 
+similar ao ease, mas com uma transição mais suave e gradual tanto na aceleração quanto na desaceleração. 
+Imagine um trem em alta velocidade fazendo uma parada em uma estação.
+
+No seu código CSS, você aplicou cada uma dessas funções a um div diferente. Assim, cada caixa .box se moverá 
+da esquerda para a direita, mas com acelerações e desacelerações diferentes ao longo do percurso, 
+de acordo com a função aplicada

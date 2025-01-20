@@ -1,0 +1,27 @@
+Ótimos! Vamos aos pontos principais sobre animações em CSS para suas anotações:
+
+Conceito Central: Animações CSS permitem que você altere suavemente os valores de propriedades CSS de um elemento ao longo do tempo, criando efeitos visuais sem JavaScript.
+
+Componentes-chave:
+
+@keyframes: Define as etapas da animação, especificando os valores das propriedades CSS em diferentes momentos. "from" (0%) e "to" (100%) são palavras-chave que representam o início e o fim, mas você pode usar porcentagens intermediárias para maior controle.
+Propriedades de Animação: Aplicadas ao elemento que você deseja animar. As principais são:
+animation-name: Nome da animação definida na regra @keyframes.
+animation-duration: Tempo total da animação (ex: 3s, 500ms).
+animation-iteration-count: Número de repetições (ex: 1, infinite).
+animation-timing-function: Como a animação progride (ex: ease, linear, ease-in-out, cubic-bezier() para curvas personalizadas).
+animation-delay: Tempo de espera antes do início da animação.
+animation-direction: Direção da animação (ex: normal, reverse, alternate).
+animation-fill-mode: Estado do elemento antes e depois da animação (ex: forwards, backwards, both).
+animation-play-state: Controla a reprodução (ex: paused, running).
+Atalho animation: Permite definir várias propriedades de animação em uma única linha, separadas por espaços. A ordem é importante!
+Exemplo de Fluxo:
+
+Defina a animação: Use @keyframes para nomear a animação e especificar as mudanças nas propriedades CSS ao longo do tempo.
+Aplique a animação: Use as propriedades de animação no elemento que você deseja animar, referenciando o nome definido em @keyframes.
+Dicas:
+
+Performance: Animações de propriedades como transform e opacity são mais performantes que animações de propriedades como width, height e margin, pois são manipuladas pela GPU.
+Ferramentas do Desenvolvedor: Use as ferramentas de desenvolvedor do seu navegador para inspecionar, depurar e ajustar suas animações.
+Bibliotecas: Existem bibliotecas CSS que podem simplificar a criação de animações complexas, como Animate.css.
+Lembre-se de praticar para dominar as animações CSS. Comece com exemplos simples e vá adicionando complexidade gradualmente! Se tiver mais alguma dúvida, é só perguntar
