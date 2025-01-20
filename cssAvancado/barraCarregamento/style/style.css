@@ -1,0 +1,57 @@
+.barraCarregamento {
+    width: 400px;
+    height: 100px;
+    border-style: solid;
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+    overflow: hidden; /* Esconde o excesso do pseudo-elemento */
+}
+
+.barraCarregamento::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: black; /* Cor da barra de carregamento */
+    animation: carregar 6s linear forwards;
+}
+
+@keyframes carregar {
+    to { width: 100%; }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente também */
+    min-height: 100vh; /* Ocupa a altura total da janela */
+}
+
+
+
+
+/*
+@keyframes carregar {
+
+    0%{background-color: white;}
+    100%{background-color: black;}
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.barraCarregamento{
+    width: 400px;
+    height: 100px;
+    border-style: solid;
+    animation-name: carregar;
+    animation-duration: 6s;
+    
+}
+
+*/
