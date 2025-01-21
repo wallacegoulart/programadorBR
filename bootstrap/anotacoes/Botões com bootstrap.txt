@@ -1,0 +1,87 @@
+Botões com bootstrap 
+
+1)Botão Padrão (Primary)
+<button type="button" class="btn btn-primary">Primary</button>
+
+Cor: Azul
+Uso: Ação principal
+
+
+--=============================================
+2)Botão Secundário (Secondary)
+<button type="button" class="btn btn-secondary">Secondary</button>
+
+Cor: Cinza
+Uso: Ação secundária
+
+
+--=============================================
+3)Botão de Sucesso (Success)
+<button type="button" class="btn btn-success">Success</button>
+
+Cor: Verde
+Uso: Indicar sucesso ou ação positiva
+
+
+--=============================================
+4)Botão de Perigo (Danger)
+<button type="button" class="btn btn-danger">Danger</button>
+
+Cor: Vermelho
+Uso: Indicar perigo ou ação negativa
+
+
+--=============================================
+5)Botão de Aviso (Warning)
+<button type="button" class="btn btn-warning">Warning</button>
+
+Cor: Amarelo
+Uso: Indicar aviso ou ação que requer atenção
+
+
+--=============================================
+6)Botão de Informação (Info)
+<button type="button" class="btn btn-info">Info</button>
+
+Cor: Azul claro
+Uso: Indicar informação ou ação informativa
+
+
+--=============================================
+7)Botão de Luz (Light)
+<button type="button" class="btn btn-light">Light</button>
+
+Cor: Branco
+Uso: Ações gerais em fundos escuros
+
+--=============================================
+8)Botão Escuro (Dark)
+<button type="button" class="btn btn-dark">Dark</button>
+
+Cor: Preto
+Uso: Ações gerais em fundos claros
+
+--=============================================
+9)Botão de Link (Link)
+<button type="button" class="btn btn-link">Link</button>
+
+Cor: Transparente (parece um link)
+Uso: Ações que se parecem com links
+
+
+
+--===================================
+Tamanhos de Botões
+
+
+10)Botão Grande
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+
+11)Botão Pequeno
+<button type="button" class="btn btn-primary btn-sm">Small button</button>
+
+12)Botões Bloqueados (Block Buttons)
+Botão que ocupa toda a largura do contêiner
+<button type="button" class="btn btn-primary btn-block">Block level button</button>
+
+Esses são os principais tipos de botões que o Bootstrap oferece, cada um com seu propósito específico e estilo visual.

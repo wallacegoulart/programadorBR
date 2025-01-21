@@ -1,0 +1,28 @@
+Modificar o Bootstrap: 
+
+Devemos sobreescrever ela com um arquivo em ccs customizado, podemos achar qual seletor dentro da página usando o inspecionar: 
+
+
+1) Modificando a text-primary e  bg-primary
+
+:root, 
+[data-bs-theme=light]{
+    --bs-primary-rgb: 255, 111, 0;
+}
+
+
+Para sobrescrever os estilos do Bootstrap, você pode adicionar suas próprias regras CSS após a inclusão do arquivo CSS do Bootstrap. Isso garante que suas regras tenham prioridade sobre as regras padrão do Bootstrap.
+
+Aqui está um exemplo de como fazer isso:
+
+Inclua o arquivo CSS do Bootstrap no seu HTML.
+Adicione um arquivo CSS personalizado após o arquivo do Bootstrap.
+Defina suas regras CSS personalizadas no arquivo CSS.
+
+exemplo:
+/* Sobrescreva os estilos do Bootstrap aqui */
+.bg-primary {
+    background-color: #ff5733 !important; /* Nova cor de fundo */
+}
+
+No exemplo acima, a classe .bg-primary do Bootstrap foi sobrescrita para usar uma nova cor de fundo. O uso de !important garante que sua regra tenha prioridade sobre a regra padrão do Bootstrap.
