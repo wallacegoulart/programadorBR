@@ -1,0 +1,40 @@
+display no Bootstrap:
+
+Classes de Display
+.d-none: Oculta um elemento.
+.d-inline: Define um elemento como inline.
+.d-inline-block: Define um elemento como inline-block.
+.d-block: Define um elemento como block.
+.d-grid: Define um elemento como grid.
+.d-table: Define um elemento como table.
+.d-table-row: Define um elemento como table-row.
+.d-table-cell: Define um elemento como table-cell.
+.d-flex: Define um elemento como flex.
+.d-inline-flex: Define um elemento como inline-flex.
+Classes Responsivas
+As classes de display podem ser usadas de forma responsiva, adicionando um sufixo para cada breakpoint:
+
+.d-{breakpoint}-none
+.d-{breakpoint}-inline
+.d-{breakpoint}-inline-block
+.d-{breakpoint}-block
+.d-{breakpoint}-grid
+.d-{breakpoint}-table
+.d-{breakpoint}-table-row
+.d-{breakpoint}-table-cell
+.d-{breakpoint}-flex
+.d-{breakpoint}-inline-flex
+
+Breakpoints
+sm: ≥576px
+md: ≥768px
+lg: ≥992px
+xl: ≥1200px
+xxl: ≥1400px
+
+Exemplo de Uso
+
+<div class="d-none d-md-block">Visível apenas em telas médias ou maiores</div>
+<div class="d-flex d-lg-none">Flexível em todas as telas, exceto grandes</div>
+
+Essas classes ajudam a controlar a visibilidade e o comportamento dos elementos em diferentes tamanhos de tela.

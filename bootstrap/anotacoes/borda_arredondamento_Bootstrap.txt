@@ -1,0 +1,63 @@
+borda no Bootstrap:
+
+Classes de Borda
+.border: Adiciona uma borda a todos os lados do elemento.
+.border-top: Adiciona uma borda ao topo do elemento.
+.border-end: Adiciona uma borda à direita do elemento.
+.border-bottom: Adiciona uma borda à parte inferior do elemento.
+.border-start: Adiciona uma borda à esquerda do elemento.
+
+Classes de Remoção de Borda
+.border-0: Remove a borda de todos os lados do elemento.
+.border-top-0: Remove a borda do topo do elemento.
+.border-end-0: Remove a borda da direita do elemento.
+.border-bottom-0: Remove a borda da parte inferior do elemento.
+.border-start-0: Remove a borda da esquerda do elemento.
+
+Classes de Cor da Borda
+.border-primary
+.border-secondary
+.border-success
+.border-danger
+.border-warning
+.border-info
+.border-light
+.border-dark
+.border-white
+
+Classes de Espessura da Borda
+.border-1: Define a espessura da borda como 1px.
+.border-2: Define a espessura da borda como 2px.
+.border-3: Define a espessura da borda como 3px.
+.border-4: Define a espessura da borda como 4px.
+.border-5: Define a espessura da borda como 5px.
+
+Exemplo de Uso
+<div class="border border-primary border-2">Borda Azul de 2px</div>
+<div class="border-top border-danger">Borda Superior Vermelha</div>
+<div class="border-0">Sem Borda</div>
+
+
+Classes de Bordas Arredondadas
+.rounded: Adiciona bordas arredondadas a todos os lados do elemento.
+.rounded-top: Adiciona bordas arredondadas ao topo do elemento.
+.rounded-end: Adiciona bordas arredondadas à direita do elemento.
+.rounded-bottom: Adiciona bordas arredondadas à parte inferior do elemento.
+.rounded-start: Adiciona bordas arredondadas à esquerda do elemento.
+.rounded-circle: Adiciona bordas arredondadas em forma de círculo.
+.rounded-pill: Adiciona bordas arredondadas em forma de pílula (oval).
+
+Classes de Remoção de Bordas Arredondadas
+.rounded-0: Remove todas as bordas arredondadas do elemento.
+
+Classes de Tamanho de Bordas Arredondadas
+.rounded-1: Define um pequeno raio de borda.
+.rounded-2: Define um raio de borda médio.
+.rounded-3: Define um grande raio de borda.
+
+Exemplo de Uso:
+<div class="rounded bg-primary text-white p-3">Bordas Arredondadas</div>
+<div class="rounded-top bg-secondary text-white p-3">Bordas Arredondadas no Topo</div>
+<div class="rounded-circle bg-success text-white p-3">Bordas em Forma de Círculo</div>
+<div class="rounded-pill bg-danger text-white p-3">Bordas em Forma de Pílula</div>
+<div class="rounded-0 bg-warning text-white p-3">Sem Bordas Arredondadas</div>

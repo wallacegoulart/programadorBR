@@ -1,0 +1,63 @@
+Margin e Padding 
+
+Margem e Padding no Bootstrap
+Bootstrap fornece classes utilitárias para adicionar margens e padding aos elementos de forma rápida e fácil. Essas classes seguem uma convenção de nomenclatura específica.
+
+Margem (.m-)
+As classes de margem (.m-) adicionam espaço ao redor do elemento. A sintaxe é a seguinte:
+
+.m{t|b|l|r|x|y}-{size}
+Onde:
+
+t = top (superior)
+b = bottom (inferior)
+l = left (esquerda)
+r = right (direita)
+x = left e right (esquerda e direita)
+y = top e bottom (superior e inferior)
+size = tamanho da margem (0, 1, 2, 3, 4, 5, auto)
+
+<div class="m-3">Margem em todos os lados</div>
+<div class="mt-3">Margem superior</div>
+<div class="mb-3">Margem inferior</div>
+<div class="ml-3">Margem esquerda</div>
+<div class="mr-3">Margem direita</div>
+<div class="mx-3">Margem esquerda e direita</div>
+<div class="my-3">Margem superior e inferior</div>
+
+
+Padding (.p-)
+As classes de padding (.p-) adicionam espaço dentro do elemento. A sintaxe é a seguinte:
+
+.p{t|b|l|r|x|y}-{size}
+Onde:
+
+t = top (superior)
+b = bottom (inferior)
+l = left (esquerda)
+r = right (direita)
+x = left e right (esquerda e direita)
+y = top e bottom (superior e inferior)
+size = tamanho do padding (0, 1, 2, 3, 4, 5)
+
+<div class="p-3">Padding em todos os lados</div>
+<div class="pt-3">Padding superior</div>
+<div class="pb-3">Padding inferior</div>
+<div class="pl-3">Padding esquerda</div>
+<div class="pr-3">Padding direita</div>
+<div class="px-3">Padding esquerda e direita</div>
+<div class="py-3">Padding superior e inferior</div>
+
+
+Tamanhos de Margem e Padding
+Os tamanhos variam de 0 a 5, onde:
+
+0 = 0rem
+1 = 0.25rem
+2 = 0.5rem
+3 = 1rem
+4 = 1.5rem
+5 = 3rem
+Além disso, você pode usar auto para margens automáticas.
+
+Essas classes utilitárias ajudam a ajustar rapidamente o layout dos elementos sem a necessidade de escrever CSS personalizado.

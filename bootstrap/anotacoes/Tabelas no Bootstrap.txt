@@ -1,0 +1,36 @@
+Tabelas no Bootstrap
+
+Classes Básicas de Tabela
+.table: Adiciona estilos básicos a uma tabela.
+.table-striped: Adiciona listras às linhas da tabela.
+.table-bordered: Adiciona bordas a todas as células da tabela.
+.table-borderless: Remove todas as bordas da tabela.
+.table-hover: Adiciona um efeito de hover às linhas da tabela.
+.table-sm: Adiciona um estilo compacto à tabela.
+.table-responsive: Adiciona um contêiner responsivo à tabela, permitindo que ela role horizontalmente em telas pequenas.
+
+Cores de Tabela
+
+.table-primary: Adiciona uma cor de fundo azul às linhas ou células.
+.table-secondary: Adiciona uma cor de fundo cinza às linhas ou células.
+.table-success: Adiciona uma cor de fundo verde às linhas ou células.
+.table-danger: Adiciona uma cor de fundo vermelha às linhas ou células.
+.table-warning: Adiciona uma cor de fundo amarela às linhas ou células.
+.table-info: Adiciona uma cor de fundo azul-clara às linhas ou células.
+.table-light: Adiciona uma cor de fundo clara às linhas ou células.
+.table-dark: Adiciona uma cor de fundo escura às linhas ou células.
+
+Cores de Tabela para Linhas ou Células
+.table-active: Adiciona uma cor de fundo cinza claro às linhas ou células.
+.table-{color}: Adiciona uma cor de fundo específica às linhas ou células (onde {color} pode ser primary, secondary, success, danger, warning, info, light, dark).
+
+Alinhamento de Texto
+.text-start: Alinha o texto à esquerda.
+.text-center: Alinha o texto ao centro.
+.text-end: Alinha o texto à direita.
+
+Exemplo de Uso
+
+Essas classes ajudam a estilizar e tornar as tabelas mais funcionais e responsivas de forma rápida e eficiente usando o Bootstrap.
+
+Similar code found with 2 license types - View matches

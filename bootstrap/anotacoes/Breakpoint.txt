@@ -1,0 +1,27 @@
+Breakpoint
+
+Breakpoints no Bootstrap
+Os breakpoints no Bootstrap são usados para criar layouts responsivos que se adaptam a diferentes tamanhos de tela. Eles são baseados em larguras mínimas (min-width) e são definidos em pixels.
+
+Breakpoints Padrão
+Bootstrap define os seguintes breakpoints padrão:
+
+Extra pequeno (xs): <576px
+Pequeno (sm): ≥576px
+Médio (md): ≥768px
+Grande (lg): ≥992px
+Extra grande (xl): ≥1200px
+Extra extra grande (xxl): ≥1400px
+Utilização dos Breakpoints
+Os breakpoints são usados em classes utilitárias para aplicar estilos específicos em diferentes tamanhos de tela.
+
+exemplos: 
+
+<div class="d-block d-sm-none">Visível apenas em telas extra pequenas</div>
+<div class="d-none d-sm-block d-md-none">Visível apenas em telas pequenas</div>
+<div class="d-none d-md-block d-lg-none">Visível apenas em telas médias</div>
+<div class="d-none d-lg-block d-xl-none">Visível apenas em telas grandes</div>
+<div class="d-none d-xl-block">Visível apenas em telas extra grandes</div>
+
+<div class="m-3 m-sm-4 m-md-5">Margem responsiva</div>
+<div class="p-3 p-sm-4 p-md-5">Padding responsivo</div>

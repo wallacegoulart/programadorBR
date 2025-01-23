@@ -1,0 +1,20 @@
+Alertas no Bootstrap:
+
+Classes Básicas de Alerta
+.alert: Classe base para todos os alertas.
+.alert-primary: Alerta com fundo azul.
+.alert-secondary: Alerta com fundo cinza.
+.alert-success: Alerta com fundo verde.
+.alert-danger: Alerta com fundo vermelho.
+.alert-warning: Alerta com fundo amarelo.
+.alert-info: Alerta com fundo azul-claro.
+.alert-light: Alerta com fundo claro.
+.alert-dark: Alerta com fundo escuro.
+
+Alerta com Link
+Para adicionar links dentro de um alerta, use a classe .alert-link para estilizar o link.
+
+Alerta Descartável
+Para criar um alerta que pode ser fechado, adicione a classe .alert-dismissible e um botão com a classe .btn-close.
+
+Exemplo de Uso
