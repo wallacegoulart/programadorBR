@@ -1,0 +1,15 @@
+Criando Meu Pacote no NODE.JS
+
+
+1) Tenho minhas funções numa pasta em JS 
+2) No Cmder uso os comandos: npm init 
+3) Faço todas as confirmações e descrições sobre a criação do pacote 
+
+
+
+Para Usar o Pacote 
+1) Sempre devemos criar um pacote para poder usar outros pacotes 
+2)  No Cmder uso os comandos: npm init 
+3) Faço todas as confirmações e descrições sobre a criação do pacote 
+4) Agora vamos instalar o pacote desejado dentro do nosso pacote criado (no programa principal)  
+5)  No Cmder uso os comandos: npm install "endereço ou nome do pacote" 

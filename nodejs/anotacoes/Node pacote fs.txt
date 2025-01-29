@@ -1,0 +1,86 @@
+Node pacote fs :
+
+
+Claro! Aqui estão algumas anotações principais sobre o pacote fs (File System) do Node.js:
+
+1) Importação do Módulo:
+const fs = require('fs');
+
+
+2) Leitura de Arquivos:
+
+	2.a)Assíncrona:
+
+fs.readFile('path/to/file', 'utf8', (err, data) => {
+    if (err) throw err;
+    console.log(data);
+});
+
+
+	2.b)Síncrona:
+
+fs.unlinkSync('path/to/file');
+console.log('File has been deleted!');
+
+
+3)Escrita em Arquivos:
+
+	3.a)Assíncrona:
+
+fs.writeFile('path/to/file', 'data to write', 'utf8', (err) => {
+    if (err) throw err;
+    console.log('File has been saved!');
+});	
+
+	3.b)Síncrona:
+
+fs.writeFileSync('path/to/file', 'data to write', 'utf8');
+console.log('File has been saved!');
+
+4)Apendar Dados em Arquivos:
+
+	4.a)Assíncrona:
+
+fs.appendFile('path/to/file', 'data to append', 'utf8', (err) => {
+    if (err) throw err;
+    console.log('Data has been appended!');
+});
+	
+	4.b)Síncrona:
+
+fs.appendFileSync('path/to/file', 'data to append', 'utf8');
+console.log('Data has been appended!');
+
+
+5)Excluir Arquivos:
+
+	5.a)Assíncrona:
+	
+fs.unlink('path/to/file', (err) => {
+    if (err) throw err;
+    console.log('File has been deleted!');
+});
+	5.b)Síncrona:
+
+fs.unlinkSync('path/to/file');
+console.log('File has been deleted!');
+
+
+
+6)Verificar Existência de Arquivos:
+
+	6.a)Assíncrona:
+fs.access('path/to/file', fs.constants.F_OK, (err) => {
+    console.log(`${err ? 'File does not exist' : 'File exists'}`);
+});
+
+	6.b)Síncrona:
+
+try {
+    fs.accessSync('path/to/file', fs.constants.F_OK);
+    console.log('File exists');
+} catch (err) {
+    console.log('File does not exist');
+}
+
+Essas são algumas das operações mais comuns que você pode realizar com o módulo fs do Node.js.
